@@ -5,6 +5,7 @@ class ViewModel extends GetxController {
   final DbController _repository = Get.put(DbController());
   RxList numbersList = [].obs;
   RxInt count = 0.obs;
+  RxInt agree_ind = 0.obs;
 
   @override
   void onInit() {

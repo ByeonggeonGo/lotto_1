@@ -9,6 +9,8 @@
 .history
 .svn/
 migrate_working_dir/
+android/app/key.properties
+android/app/key.jks
 
 # IntelliJ related
 *.iml

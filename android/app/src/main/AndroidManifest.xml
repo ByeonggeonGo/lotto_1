@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lotto_1">
    <application
-        android:label="lotto_1"
+        android:label="최고 로또(로또 번호 예측기)"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -30,5 +30,10 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5666990059725232~1089074946"/>
+        
     </application>
 </manifest>
